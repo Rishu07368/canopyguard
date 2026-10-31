@@ -1,0 +1,6 @@
+com\canopyguard\persistence\DatabaseServiceTest.class
+com\canopyguard\domain\RoutePlannerTest.class
+com\canopyguard\engine\WildfireEngineTest.class
+com\canopyguard\persistence\SessionStoreTest.class
+com\canopyguard\geo\GeoJsonServiceTest.class
+com\canopyguard\domain\MissionServiceTest.class

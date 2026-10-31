@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "name": "Emerald Reach - fictional training region",
+  "features": [
+    {"type":"Feature","properties":{"id":"forest-core","kind":"forest","name":"Emerald Reach Rainforest","fuel":"high"},"geometry":{"type":"Polygon","coordinates":[[[-61.62,-2.72],[-61.18,-2.72],[-61.16,-2.28],[-61.61,-2.27],[-61.62,-2.72]]]}},
+    {"type":"Feature","properties":{"id":"river-main","kind":"water","name":"Jade River"},"geometry":{"type":"LineString","coordinates":[[-61.58,-2.30],[-61.49,-2.40],[-61.43,-2.51],[-61.33,-2.58],[-61.20,-2.67]]}},
+    {"type":"Feature","properties":{"id":"road-ridge","kind":"road","name":"South Ridge Route","edge":"ROAD-03"},"geometry":{"type":"LineString","coordinates":[[-61.50,-2.48],[-61.42,-2.43],[-61.34,-2.39],[-61.29,-2.43],[-61.24,-2.55],[-61.53,-2.68]]}},
+    {"type":"Feature","properties":{"id":"road-river","kind":"road","name":"River Junction Road","edge":"ROAD-01"},"geometry":{"type":"LineString","coordinates":[[-61.50,-2.48],[-61.43,-2.51],[-61.33,-2.58],[-61.24,-2.55]]}},
+    {"type":"Feature","properties":{"id":"community-canopy","kind":"community","name":"Canopy Bend","idref":"COMM-01","population":"186","status":"PREPAREDNESS"},"geometry":{"type":"Point","coordinates":[-61.50,-2.48]}},
+    {"type":"Feature","properties":{"id":"community-river","kind":"community","name":"Riverwatch","idref":"COMM-02","population":"92","status":"MONITORING"},"geometry":{"type":"Point","coordinates":[-61.36,-2.58]}},
+    {"type":"Feature","properties":{"id":"community-north","kind":"community","name":"Northbank","idref":"COMM-03","population":"134","status":"MONITORING"},"geometry":{"type":"Point","coordinates":[-61.26,-2.35]}},
+    {"type":"Feature","properties":{"id":"shelter-field","kind":"shelter","name":"Emerald Field Station","capacity":"260","idref":"SHEL-01"},"geometry":{"type":"Point","coordinates":[-61.24,-2.55]}},
+    {"type":"Feature","properties":{"id":"shelter-ridge","kind":"shelter","name":"South Ridge Hall","capacity":"180","idref":"SHEL-02"},"geometry":{"type":"Point","coordinates":[-61.53,-2.68]}},
+    {"type":"Feature","properties":{"id":"habitat-owl","kind":"habitat","name":"Cloud Canopy Refuge","species":"Emerald canopy owl","status":"sensitive location generalized"},"geometry":{"type":"Polygon","coordinates":[[[-61.34,-2.40],[-61.29,-2.38],[-61.25,-2.43],[-61.28,-2.48],[-61.34,-2.40]]]}},
+    {"type":"Feature","properties":{"id":"habitat-tapir","kind":"habitat","name":"Lowland Marsh Habitat","species":"Lowland tapir","status":"sensitive location generalized"},"geometry":{"type":"Polygon","coordinates":[[[-61.48,-2.58],[-61.42,-2.57],[-61.40,-2.62],[-61.46,-2.66],[-61.48,-2.58]]]}},
+    {"type":"Feature","properties":{"id":"corridor-east","kind":"corridor","name":"Eastern Canopy Corridor"},"geometry":{"type":"LineString","coordinates":[[-61.47,-2.46],[-61.38,-2.43],[-61.31,-2.41],[-61.25,-2.42]]}},
+    {"type":"Feature","properties":{"id":"ignition-01","kind":"ignition","name":"Dry-season ignition point","confidence":"scenario seeded"},"geometry":{"type":"Point","coordinates":[-61.45,-2.37]}}
+  ]
+}
